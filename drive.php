@@ -1,15 +1,4 @@
 <?php
-//check your site
-$passCheck = true;
-// $data = parse_url($_SERVER ['HTTP_REFERER']);
-// if (!in_array($data['host'] , array('animy.media', 'https://animy.media'))){
-// $passCheck = false;
-// }
-if ($passCheck== false){
-header("HTTP/1.0 404 Not Found");
-echo "<h1>404 Not Found</h1>";
-exit();
-}
 //core function
 function inbtwn($input, $startcut, $finishcut){
     $a1 = explode($startcut, $input);
