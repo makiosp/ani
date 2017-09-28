@@ -1,6 +1,6 @@
 <?php
 // insert your full URL here with http://
-$domain = '//sv1.animy.media';
+$domain = 'http://animy-ani.7e14.starter-us-west-2.openshiftapps.com';
 // SERVERS START
 $proxies = array(); 
 //1stproxylist
